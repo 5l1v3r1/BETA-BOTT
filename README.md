@@ -2,7 +2,7 @@
 BOT WHATSAPP YANG BISA DIGUNAKAN DI TERMUX
 
 
-<img src = "https://i.pinimg.com//originals//f6//dc//a0//f6dca0d9666923690c8ad3d53e9f005e.jpg" width="320">
+<img src = "https://avatars3.githubusercontent.com/u/49530313?s=460&u=086c7b0d17c5b8e906200d810e88587f5c98e349&v=4" width="320">
 
 
 
