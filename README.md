@@ -52,4 +52,4 @@ ket : ✅ : aktif
 * [`termux-whatsapp-bot`](https://github.com/fdciabdul/termux-whatsapp-bot)
 * [`botst4rz`](https://github.com/Bintang73/botst4rz)
 ## DONASI
-* [`Saweria`](https://saweria.co/Mwmaulana310)
+* [`Saweria`](https://saweria.co/agung1)
