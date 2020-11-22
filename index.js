@@ -209,6 +209,29 @@ axios.get(`https://st4rz.herokuapp.com/api/ytv?url=${teks}`).then((res) => {
 })
 }
 
+if (text.includes("!pokemon")){
+const teks = text.replace(/!pokemon /, "")
+axios.get(`https://assets.pokemon.com/assets/cms2/img/pokedex/full/'+q7+'.png','Pokemon.png${teks}`).then((res) => {
+    let hasil = `Gambar Telah Tersedia\n👇👇👇👇👇👇👇👇👇\n\nJudul: ${res.data.title}\n\nUkuran gambar: ${res.data.filesize}\n\nLink: ${res.data.result}`;
+    conn.sendMessage(id, hasil ,MessageType.text);
+})
+}
+if (text.includes("!chord")){
+const teks = text.replace(/!chord /, "")
+axios.get(`https://mhankbarbar.herokuapp.com/api/chord?q=${teks}`).then((res) => {
+    let hasil = `chord tersedia\n👇👇👇👇👇👇👇👇👇\n\nJudul: ${res.data.title}\n\nLagu Tersedia: ${res.data.filesize}\n\nLink: ${res.data.result}`;
+    conn.sendMessage(id, hasil ,MessageType.text);
+})
+}
+
+if (text.includes("!katabijak")){
+const teks = text.replace(/!katabijak /, "")
+axios.get(`https://raw.githubusercontent.com/ArugaZ/grabbed-results/main/random/katabijax.txt${teks}`).then((res) => {
+    let hasil = `katabijak tersedia\n👇👇👇👇👇👇👇👇👇\n\nJudul: ${res.data.title}\n\katabijak Tersedia: ${res.data.filesize}\n\nLink: ${res.data.result}`;
+    conn.sendMessage(id, hasil ,MessageType.text);
+})
+}
+
 if (text.includes("!fb")){
 const teks = text.replace(/!fb /, "")
 axios.get(`https://mhankbarbar.herokuapp.com/api/epbe?url=${teks}&apiKey=zFuV88pxcIiCWuYlwg57`).then((res) => {
